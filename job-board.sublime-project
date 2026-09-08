@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{ "path": "." }
+	],
+	"settings": {
+		"LSP": {
+			"phpactor": { "enabled": true },
+			"laravel-ls": { "enabled": true }
+		}
+	}
+}

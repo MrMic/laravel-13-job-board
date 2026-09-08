@@ -1,0 +1,505 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/css/app.css",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Models/Job.php",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"lsp: rets",
+				"LSP: Restart Server"
+			],
+			[
+				"lsp: trou",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"lsp: Res",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"lsp en",
+				"Preferences: LSP Settings"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp ",
+				"LSP: Restart Server"
+			],
+			[
+				"lsp langu",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp res",
+				"LSP: Restart Server"
+			],
+			[
+				"project",
+				"Project: Refresh Folders"
+			],
+			[
+				"theme",
+				"Edit Preference: Theme"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"inst pack",
+				"Package Control: Install Package"
+			],
+			[
+				"prefe",
+				"Preferences: LSP Settings"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/app",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/app/Models",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources/css",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources/js",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources/views"
+	],
+	"file_history":
+	[
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources/js/app.js",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/app/Models/Job.php",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/.sublime-project",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/job-board.sublime-project",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/app/Http/Controllers/JobController.php",
+		"/home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources/views/welcome.blade.php",
+		"/home/mic/DEV/SYMFONY_UX_TURBO/hello-turbo/src/Controller/MessagesController.php",
+		"/home/mic/Dropbox/BLOG/Takeout/Blogger/Blogs/Michael Chlon/feed.atom",
+		"/home/mic/DEV/ANGULAR_SPRINGBOOT/ecommerce-project-release-2.0/00-starter-files/luv2shop-template/home.html",
+		"/home/mic/DEV/ANGULAR_SPRINGBOOT/ecommerce-project/01-starter-files/db-scripts/01-create-user.sql",
+		"/home/mic/Dropbox/CONFIGS/GPG/CLES/Michael CHLON_0xA1E32D27_public.asc",
+		"/home/mic/.cache/.fr-DgD5lb/23-checkout-form-validation-shipping-billing-creditcard/03-frontend/angular-ecommerce/src/app/components/checkout/checkout.component.html",
+		"/home/mic/.cache/.fr-Lj3ngS/17-checkout-form-layout/03-frontend/angular-ecommerce/src/app/components/cart-details/cart-details.component.html",
+		"/home/mic/.cache/.fr-AUarF1/03-search-by-category-dynamic/02-backend/spring-boot-ecommerce/src/main/resources/application.properties",
+		"/home/mic/.cache/.fr-SI13Xy/01-template-integration/03-frontend/angular-ecommerce/src/app/components/product-list/product-list.component.css",
+		"/home/mic/.cache/.fr-ETSBkr/01-template-integration/03-frontend/angular-ecommerce/src/index.html",
+		"/home/mic/DEV/NEXTJS_AI/nextjs-ai-app/package.json",
+		"/home/mic/DEV/NEXTJS_AI/nextjs-ai-app/src/app/api/multiple-tools/route.ts",
+		"/home/mic/DEV/NEXTJS_AI/nextjs-ai-app/node_modules/@ai-sdk/provider-utils/dist/index.d.ts",
+		"/home/mic/.cache/sublime-text/Package Storage/LSP-basedpyright/language-server/node_modules/basedpyright/dist/typeshed-fallback/stdlib/builtins.pyi",
+		"/home/mic/DEV/GITHUB_ACTIONS/Section04/gh-events/src/components/MainContent.jsx"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ">)]}@*$+abcdefghijklmnopqrstuvwxyz0123456789",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "emmet-ls"
+								},
+								{
+									"characters": "/-:",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-css"
+								},
+								{
+									"characters": "\"'` .([]!/-:",
+									"registration_id": "fe05ea60-83d6-4e2d-87a6-bbe47e860ee2",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-tailwindcss"
+								}
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"color_helper.refresh": true,
+							"copilot.completion._is_modified": false,
+							"copilot.completion.is_visible": false,
+							"copilot.completion.is_visible_panel_completions": false,
+							"copilot.completion.is_waiting_completion": false,
+							"copilot.completion.is_waiting_panel_completions": false,
+							"copilot.completion.original_layout": null,
+							"lsp_active": true,
+							"lsp_uri": "file:///home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/resources/css/app.css",
+							"show_definitions": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Models/Job.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": "\"'` .([]!/-:",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-tailwindcss"
+								},
+								{
+									"characters": "'\"",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "laravel-ls"
+								},
+								{
+									"characters": ":>$[@('\"\\",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "phpactor"
+								},
+								{
+									"characters": ".:<\"=/",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-html"
+								}
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"color_helper.refresh": true,
+							"copilot.completion.is_visible": false,
+							"copilot.completion.is_visible_panel_completions": false,
+							"copilot.completion.is_waiting_completion": false,
+							"copilot.completion.is_waiting_panel_completions": false,
+							"copilot.completion.original_layout": null,
+							"lsp_active": true,
+							"lsp_uri": "file:///home/mic/DEV/LARAVEL/LARAVEL_MASTERY/JOB_BOARD/job-board/app/Models/Job.php",
+							"show_definitions": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups-dummy":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "job-board.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"job",
+				"app/Models/Job.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"copilot.conversation.code_block_index":
+		{
+		},
+		"copilot.conversation.conversation_entries":
+		[
+		],
+		"copilot.conversation.conversation_id": "",
+		"copilot.conversation.follow_up": "",
+		"copilot.conversation.group_id": -1,
+		"copilot.conversation.is_visible": false,
+		"copilot.conversation.is_waiting": false,
+		"copilot.conversation.last_active_view_id": -1,
+		"copilot.conversation.model_id": "",
+		"copilot.conversation.original_layout": null,
+		"copilot.conversation.reference_block_state":
+		{
+		},
+		"copilot.conversation.suggested_title": "",
+		"copilot.conversation.view_id": -1,
+		"copilot.copilotignore.patterns":
+		{
+		},
+		"lsp_show_inlay_hints": true
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 378.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
