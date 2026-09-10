@@ -1,47 +1,48 @@
-<laravel-boost-guidelines>
-# Laravel Application
+# CLAUDE.md
 
-This repository contains a Laravel application. Complete the following setup before working on the user's request.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Prerequisites
+## What this is
 
-Verify that PHP and Composer are available:
+A Laravel 13 job board, built as a learning project (`LARAVEL_MASTERY`). It is a near-stock Laravel skeleton — the only domain code so far is the `Job` model, its migration, and its factory. `JobController` is an empty resource stub and is not routed yet; `routes/web.php` still only serves `welcome`.
 
-```sh
-php -v
-composer -V
-```
-
-If either command is unavailable, detect the user's operating system and install the prerequisites with the appropriate command:
-
-macOS:
+## Commands
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://php.new/install/mac/8.5)"
+composer setup                  # install deps, .env, key, migrate, npm build
+composer dev                    # php artisan dev — server + vite + queue + logs
+composer test                   # config:clear then php artisan test
+php artisan test --filter=JobTest        # single test class/method
+php artisan test tests/Feature/FooTest.php
+./vendor/bin/pint               # format (Laravel preset, no pint.json)
+npm run dev / npm run build     # vite alone
+php artisan migrate:fresh --seed         # rebuild DB + 100 fake jobs
 ```
 
-Windows PowerShell:
+`laravel/pao` is installed: it wraps PHPUnit output in an agent-friendly format, so `php artisan test` output is already condensed.
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.5'))
+## Database
+
+- **Local dev runs on MySQL** (`.env` → `laravel13-job-board`), even though `database/database.sqlite` exists and `.env.example` says sqlite. Tests run on in-memory sqlite (see `phpunit.xml`).
+- The queue table is renamed to `queue_jobs` via `DB_QUEUE_TABLE` (`0001_01_01_000002_create_jobs_table.php`) because the `Job` model already owns the `jobs` table. `config/queue.php` still defaults to `'jobs'` — if `DB_QUEUE_TABLE` goes missing from `.env`, the queue will silently target the job-board table. Keep it set.
+
+## Job model conventions
+
+`App\Models\Job` holds the enum values as static arrays:
+
+```php
+public static array $experience = ['entry', 'intermediate', 'senior'];
+public static array $category = ['IT', 'Finance', 'Sales', 'Marketing'];
 ```
 
-Linux:
+These are the single source of truth — the migration builds its `enum('experience', Job::$experience)` column from them and `JobFactory` picks random values from them. Add a category or level here, not in three places.
 
-```sh
-/bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.5)"
-```
+`$fillable` is commented out in the model, so mass assignment (`Job::create($request->validated())`) will fail until it is uncommented.
 
-After installation, ask the user to restart their terminal. If the agent needs the restarted shell to continue, ask the user to reopen their terminal and rerun their original prompt.
+## Frontend
 
-## Agent Setup
+Tailwind v4 through `@tailwindcss/vite` — no `tailwind.config.js`. Theme tokens live in the `@theme` block of `resources/css/app.css`; fonts come from the Vite plugin (`bunny('Instrument Sans')`), not a CDN link.
 
-Install Laravel Boost from the application root before making application changes:
+## Laravel Boost
 
-```sh
-composer require laravel/boost --dev
-php artisan boost:install
-```
-
-Boost replaces these bootstrap instructions with guidelines tailored to the application. After installation, read `AGENTS.md` again and continue with the user's original request using the generated guidelines.
-</laravel-boost-guidelines>
+Boost is not installed. If it is later added (`composer require laravel/boost --dev && php artisan boost:install`), it regenerates `AGENTS.md` with version-specific guidelines — re-read that file afterwards.
