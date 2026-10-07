@@ -41,7 +41,13 @@ These are the single source of truth — the migration builds its `enum('experie
 
 ## Frontend
 
-Tailwind v4 through `@tailwindcss/vite` — no `tailwind.config.js`. Theme tokens live in the `@theme` block of `resources/css/app.css`; fonts come from the Vite plugin (`bunny('Instrument Sans')`), not a CDN link.
+Tailwind v4 (4.3.x) through `@tailwindcss/vite`. There is **no `tailwind.config.js` and no `postcss.config.js`**, and none should be added — v4 does its own prefixing via Lightning CSS, so `postcss`/`autoprefixer` are not dependencies either. Everything lives in `resources/css/app.css`:
+
+- `@import 'tailwindcss'` replaces the v3 `@tailwind base/components/utilities` directives (those no longer exist).
+- Theme tokens go in the `@theme { }` block (currently `--font-sans`).
+- Content scanning is automatic; `@source` lines only add what Vite cannot see (paginator views, compiled Blade in `storage/framework/views`).
+
+Fonts are self-hosted by the Vite plugin — `bunny('Instrument Sans')` in `vite.config.js`, not a CDN `<link>`. `fontaine` is installed to make the plugin emit metric-override fallbacks (`size-adjust`, `ascent-override`) so text does not shift on font swap; without it the build logs a warning and skips them.
 
 ## Laravel Boost
 
